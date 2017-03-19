@@ -1,0 +1,30 @@
+body {  
+    padding-top: 1rem;
+}
+header {
+    height: 10vh;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    .identity {
+        width: 15rem;
+    }
+
+    nav, .identity {
+        display: inline-block;
+    }
+    nav {
+        float: right;
+        margin-top: 2rem;
+        li {
+            display: inline-block;
+            padding-right: 2rem;
+            padding-left: 2rem;
+            margin-right: 1rem;
+        }
+    }
+}
+
+.container {
+    height: 87.75vh;
+}

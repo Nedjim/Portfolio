@@ -9,6 +9,13 @@ module.exports = {
     loaders: [
       { test: /\.js?$/, loader: 'babel', exclude: /node_modules/ },
       { test: /\.s?css$/, loader: 'style!css!sass' },
+      {
+        test: /\.(jpg|png|svg)$/,
+        loader: 'file-loader',
+        options: {
+          name: 'images/[hash].[ext]',
+        }
+      }
     ]
   },
   resolve: {
